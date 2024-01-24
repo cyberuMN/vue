@@ -37,7 +37,8 @@
                 },
                 mounted() {
                     // バックエンドのエンドポイントを適切なものに変更してください
-                    const backendEndpoint = 'http://localhost:30018/notes_from_b';
+                    // const backendEndpoint = 'http://localhost:30018/notes_from_b';  // 第14回(ローカル用)
+                    const backendEndpoint = 'http://153.120.121.157:30018/notes_from_b';  // 第15回(サーバー用)
 
                     // AXIOSを使用してデータを取得
                     axios.get(backendEndpoint)
